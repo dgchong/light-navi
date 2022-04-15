@@ -65,7 +65,7 @@ lightNaviData = {
 			"测试环境",
 			"生产环境"
 		],
-        "showFooter":true,
+       		"showFooter":true,
 		"defalutEnv":"all"
     },
     "data":[
@@ -79,23 +79,23 @@ lightNaviData = {
 				"http://grafana-pro.dgchong.cn"
             ]
         },
-		{
-		    "name":"GitLab",
-			"logo":"gitlab.png",
-			"desc":"一个用于仓库管理系统的开源项目，使用Git作为代码管理工具，并在此基础上搭建起来的Web服务。",
-		    "urls":[
-		        "http://gitlab.dgchong.cn"
-		    ]
-		},
-		{
-		    "name":"Confluence",
-			"logo":"wiki.png",
-			"desc":"一个专业的企业知识管理与协同软件，也可以用于构建企业wiki。",
-		    "urls":[
-				"",
-		        "http://confluence.dgchong.cn"
-		    ]
-		}
+	{
+	    "name":"GitLab",
+		"logo":"gitlab.png",
+		"desc":"一个用于仓库管理系统的开源项目，使用Git作为代码管理工具，并在此基础上搭建起来的Web服务。",
+	    "urls":[
+		"http://gitlab.dgchong.cn"
+	    ]
+	},
+	{
+	    "name":"Confluence",
+		"logo":"wiki.png",
+		"desc":"一个专业的企业知识管理与协同软件，也可以用于构建企业wiki。",
+	    "urls":[
+			"",
+		"http://confluence.dgchong.cn"
+	    ]
+	}
     ]
 }
 ```

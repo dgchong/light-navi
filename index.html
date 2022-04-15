@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>L·N 导航</title>
+	<base target="_blank" />
+	<link rel="shortcut icon" href="static/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="static/css/style.min.css">
+	<script type="text/javascript" src="data/ln.data.json"></script>
+	<script type="text/javascript" src="static/js/jquery.min.js"></script>
+	<script type="text/javascript" src="static/js/elasticlunr.min.js"></script>
+	<script type="text/javascript" src="static/js/pinyin_dict_withtone.js"></script>
+	<script type="text/javascript" src="static/js/pinyinUtil.min.js"></script>
+	<script type="text/javascript" src="static/js/light-navi.min.js"></script>
+</head>
+<body>
+	<div class="layout-left">
+		<div class="layout-left-name">
+			<div class="logo">
+				<a href="javascript:location.reload();" target="_self"><img src="static/img/logo.png"/></a>
+			</div>
+			<div class="title">
+				<p class="title-up">LIGHT·NAVI<p>
+				<p class="title-down">轻量级系统导航工具</p>
+			</div>
+		</div>
+		<div class="layout-left-nav">
+			<ul class="nav-ul" id="nav-ul"></ul>
+		</div>
+	</div>
+	<div class="layout-right">
+		<div class="layout-right-search">
+			<div class="search-item">
+				<input type="search"id="search-input"  placeholder="请输入关键词" maxlength="50" /> <button id="search-btn">搜&nbsp;索</button>
+			</div>
+		</div>
+		<div class="layout-right-content">
+			<div class="content-item" id="content-item"></div>
+			<div class="content-footer" id="ontent-footer">
+				<section>
+					Copyright © 2020-2022 <b>Light·Navi</b>
+					<span class="split">|</span> designed by <a href="https://www.dgchong.cn">dgchong.cn</a>
+					<span class="split">|</span> 版本：0.0.8
+					<span class="split">|</span> <iframe class="github" src="https://ghbtns.com/github-btn.html?user=dgchong&repo=light-navi&type=star&count=true" frameborder="0" scrolling="0" title="gitHub"></iframe>
+				</section>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

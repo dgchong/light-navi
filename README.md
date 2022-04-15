@@ -60,13 +60,13 @@ light-navi
 ```javascript
 lightNaviData = {
     "config":{
-		"envs":[
-			"开发环境",
-			"测试环境",
-			"生产环境"
-		],
-       		"showFooter":true,
-		"defalutEnv":"all"
+	"envs":[
+		"开发环境",
+		"测试环境",
+		"生产环境"
+	],
+	"showFooter":true,
+	"defalutEnv":"all"
     },
     "data":[
         {

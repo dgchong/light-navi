@@ -4,7 +4,7 @@
 
 &emsp;&emsp;在线演示地址：[https://www.dgchong.cn/light-navi/index.html](https://www.dgchong.cn/light-navi/index.html)
 
-&emsp;&emsp;代码包：[下载]()
+&emsp;&emsp;代码包：[下载](https://github.com/dgchong/light-navi/tags)
 
 
 ## 一、代码结构
@@ -32,7 +32,7 @@ light-navi
 
 &emsp;&emsp; 2. 执行命令`unzip light-navi-{version}.zip`解压代码包即可。
 
-解压后，在浏览器中直接输入 [http://{nginx地址}/light-navi]() 就可以访问到主页面了。
+解压后，在浏览器中直接输入 [http://{nginx地址}/light-navi-{version}]() 就可以访问到主页面了。
 
 ##### b. 其它方式
 &emsp;&emsp; 因为`light-navi`是通过纯静态文件实现的，所以理论上，可将其部署在任何`web`容器下使用，如`Apache`、`Tomcat`、`Jetty`等。
@@ -156,4 +156,13 @@ lightNaviData = {
 &emsp;&emsp;
 &emsp;&emsp;		
 &emsp;&emsp;
-&emsp;&emsp; **如果你觉得`light-navi`还不错的话，右上角帮点个小:star::star::star:吧~	:blush:**
+&emsp;&emsp;
+&emsp;&emsp;
+
+**如果你觉得`light-navi`还不错的话，右上角帮点个小:star::star::star:吧~	:blush:**
+
+&emsp;&emsp;
+&emsp;&emsp;		
+&emsp;&emsp;
+&emsp;&emsp;
+&emsp;&emsp;
